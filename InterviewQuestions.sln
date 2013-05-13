@@ -5,6 +5,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterviewQuestions.MaximumS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterviewQuestions.MaximumSubarrayProblem.Tests", "InterviewQuestions.MaximumSubarrayProblem.Tests\InterviewQuestions.MaximumSubarrayProblem.Tests.csproj", "{39096436-4A10-41D4-92F8-41F3F6F12652}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterviewQuestions.DuplicationProblem", "InterviewQuestions.DuplicationProblem\InterviewQuestions.DuplicationProblem.csproj", "{12808648-F489-44E9-8503-908EF83EAF67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterviewQuestions.DuplicationProblem.Tests", "InterviewQuestions.DuplicationProblem.Tests\InterviewQuestions.DuplicationProblem.Tests.csproj", "{9E86C78F-3A9F-4D2D-98DE-56F6029B9502}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +23,14 @@ Global
 		{39096436-4A10-41D4-92F8-41F3F6F12652}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39096436-4A10-41D4-92F8-41F3F6F12652}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39096436-4A10-41D4-92F8-41F3F6F12652}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12808648-F489-44E9-8503-908EF83EAF67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12808648-F489-44E9-8503-908EF83EAF67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12808648-F489-44E9-8503-908EF83EAF67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12808648-F489-44E9-8503-908EF83EAF67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E86C78F-3A9F-4D2D-98DE-56F6029B9502}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E86C78F-3A9F-4D2D-98DE-56F6029B9502}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E86C78F-3A9F-4D2D-98DE-56F6029B9502}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E86C78F-3A9F-4D2D-98DE-56F6029B9502}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

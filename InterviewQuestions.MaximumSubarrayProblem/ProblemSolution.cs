@@ -2,6 +2,11 @@
 
 namespace InterviewQuestions.MaximumSubarrayProblem
 {
+	/// <summary>
+	/// You're given an array containing both positive and negative integers and
+	/// required to find the sub-array with the largest sum (O(N) a la KBL). Write a
+	/// routine in C for the above.
+	/// </summary>
 	public class ProblemSolution
 	{
 		public static int[] GetLargestSumSubArray(int[] input)
