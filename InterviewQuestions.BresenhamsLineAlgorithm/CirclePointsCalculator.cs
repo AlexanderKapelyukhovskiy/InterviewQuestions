@@ -2,6 +2,10 @@
 
 namespace InterviewQuestions.BresenhamsLineAlgorithm
 {
+	/// <summary>
+	/// Write a routine to draw a circle (x ** 2 + y ** 2 = r ** 2) without making use
+	/// of any floating point computations at all.
+	/// </summary>
 	public class CirclePointsCalculator
 	{
 		public Point[] GetCircle(Point p, int radius)
