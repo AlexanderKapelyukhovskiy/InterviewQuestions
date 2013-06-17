@@ -31,12 +31,17 @@ namespace InterviewQuestions.ReverseLinkedListProblem.Tests
 		{
 			var head = CreateLinkedList(listValues);
 			LinkedListItem<int> reversedHead = ProblemSolution<int>.Reverse(head);
-			Assert.IsNotNull(reversedHead);
+			VerifyList(reversedValues, reversedHead);
+		}
+
+		private static void VerifyList(int[] array, LinkedListItem<int> head)
+		{
+			Assert.IsNotNull(head);
 			int i = 0;
-			while (reversedHead != null)
+			while (head != null)
 			{
-				Assert.That(reversedHead.Value, Is.EqualTo(reversedValues[i]));
-				reversedHead = reversedHead.Next;
+				Assert.That(head.Value, Is.EqualTo(array[i]));
+				head = head.Next;
 				i++;
 			}
 		}
