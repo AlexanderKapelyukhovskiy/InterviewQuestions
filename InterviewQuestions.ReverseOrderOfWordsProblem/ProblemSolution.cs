@@ -3,6 +3,10 @@ using System.Text;
 
 namespace InterviewQuestions.ReverseOrderOfWordsProblem
 {
+	/// <summary>
+	/// 43: 6/7
+	/// Reverse the order of the words
+	/// </summary>
 	public class ProblemSolution
 	{
 		public static string ReverseOne(string input)

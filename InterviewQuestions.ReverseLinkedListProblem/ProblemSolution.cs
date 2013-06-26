@@ -8,10 +8,13 @@ namespace InterviewQuestions.ReverseLinkedListProblem
 		public LinkedListItem<T> Next { get; set; }
 	}
 
+	/// <summary>
+	/// 45: 7/25
+	/// Reverse linked list
+	/// </summary>
+	/// <typeparam name="T"></typeparam>
 	public class ProblemSolution<T>
 	{
-		
-
 		public static LinkedListItem<T> Reverse(LinkedListItem<T> head)
 		{
 			if (head == null)

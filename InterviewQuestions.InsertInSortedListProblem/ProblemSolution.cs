@@ -8,6 +8,10 @@ namespace InterviewQuestions.InsertInSortedListProblem
 		public LinkedListItem<T> Next { get; set; }
 	}
 
+	/// <summary>
+	/// 46: 7/12
+	/// Insert in a sorted list
+	/// </summary>
 	public class ProblemSolution
 	{
 		public static LinkedListItem<T> Insert<T>(LinkedListItem<T> head, T value) where T : IComparable

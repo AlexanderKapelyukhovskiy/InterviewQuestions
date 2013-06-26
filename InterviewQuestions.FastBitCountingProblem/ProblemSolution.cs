@@ -1,5 +1,9 @@
 ﻿namespace InterviewQuestions.FastBitCountingProblem
 {
+	/// <summary>
+	/// 44: 6/9
+	/// Count the number of ones in a 32 bit number
+	/// </summary>
 	public class ProblemSolution
 	{
 		public static int BitCount1(int value)
