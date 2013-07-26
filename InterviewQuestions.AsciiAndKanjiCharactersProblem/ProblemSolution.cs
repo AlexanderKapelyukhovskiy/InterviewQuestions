@@ -9,7 +9,7 @@ namespace InterviewQuestions.AsciiAndKanjiCharactersProblem
 			if (index<0 || index>=data.Length)
 				throw new IndexOutOfRangeException();
 
-			const long msbMask = 1 << 7;// msb - 10000000
+			const long msbMask = 1 << 7;// msb - bx10000000
 
 			if (index == 0 && (data[index] & msbMask) != 0) // msb is 1 so this is not an ascii but there is not previous symbol
 				throw new Exception("Invalid data, single byte have msb equals to 1 ");
